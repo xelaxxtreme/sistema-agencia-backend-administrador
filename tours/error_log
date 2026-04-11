@@ -1,0 +1,387 @@
+[27-Nov-2025 16:54:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'terresde_administrador'@'localhost' (using password: YES) in /home/terresde/admin.terresdesincas.com/api/config/db.php:7
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/config/db.php(7): mysqli->__construct('localhost', 'terresde_admini...', Object(SensitiveParameterValue), 'terresde_incas')
+#1 /home/terresde/admin.terresdesincas.com/api/tours/route.php(2): require_once('/home/terresde/...')
+#2 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/config/db.php on line 7
+[27-Nov-2025 16:57:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'terresde_administrador'@'localhost' (using password: YES) in /home/terresde/admin.terresdesincas.com/api/config/db.php:7
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/config/db.php(7): mysqli->__construct('localhost', 'terresde_admini...', Object(SensitiveParameterValue), 'terresde_incas')
+#1 /home/terresde/admin.terresdesincas.com/api/tours/route.php(2): require_once('/home/terresde/...')
+#2 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/config/db.php on line 7
+[03-Dec-2025 17:38:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'caminho-inca' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[03-Dec-2025 17:39:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'caminho-inca' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[03-Dec-2025 17:39:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'caminho-inca' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[03-Dec-2025 17:39:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'caminho-inca' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[03-Dec-2025 17:39:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'caminho-inca' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[04-Dec-2025 16:42:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'laguna-humantay' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[04-Dec-2025 16:42:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'laguna-humantay' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[04-Dec-2025 16:42:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'laguna-humantay' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[04-Dec-2025 16:42:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'laguna-humantay' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[04-Dec-2025 16:42:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'laguna-humantay' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[04-Dec-2025 16:42:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'laguna-humantay' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[04-Dec-2025 17:29:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'caminhada-huchuy-qosqo' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[04-Dec-2025 17:30:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'caminhada-huchuy-qosqo' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[04-Dec-2025 17:30:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'caminhada-huchuy-qosqo' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[04-Dec-2025 17:30:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'caminhada-huchuy-qosqo' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[04-Dec-2025 17:30:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'caminhada-huchuy-qosqo' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[04-Dec-2025 17:30:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'caminhada-huchuy-qosqo' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[04-Dec-2025 17:38:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'valle-sagrado-vip' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[04-Dec-2025 17:38:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'valle-sagrado-vip' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[04-Dec-2025 17:38:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'valle-sagrado-vip' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[04-Dec-2025 17:38:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'valle-sagrado-vip' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[04-Dec-2025 17:38:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'valle-sagrado-vip' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[04-Dec-2025 17:38:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'valle-sagrado-vip' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[04-Dec-2025 23:28:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'tour-nativos' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[04-Dec-2025 23:29:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'tour-nativos' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[04-Dec-2025 23:29:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'tour-nativos' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[04-Dec-2025 23:29:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'tour-nativos' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[04-Dec-2025 23:29:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'tour-nativos' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[04-Dec-2025 23:29:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'tour-nativos' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[04-Dec-2025 23:29:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'tour-nativos' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[04-Dec-2025 23:29:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'tour-nativos' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[04-Dec-2025 23:29:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'tour-nativos' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[04-Dec-2025 23:29:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'tour-nativos' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[04-Dec-2025 23:29:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'tour-nativos' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[04-Dec-2025 23:29:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'tour-nativos' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[04-Dec-2025 23:29:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'tour-nativos' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[04-Dec-2025 23:29:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'tour-nativos' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[04-Dec-2025 23:29:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'tour-nativos' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[04-Dec-2025 23:29:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'tour-nativos' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[04-Dec-2025 23:29:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'tour-nativos' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[04-Dec-2025 23:29:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'tour-nativos' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[04-Dec-2025 23:29:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'tour-nativos' for key 'slug' in /home/terresde/admin.terresdesincas.com/api/tours/route.php:142
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(142): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 142
+[30-Dec-2025 21:47:53 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/tours/route.php:148
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(148): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 148
+[30-Dec-2025 21:48:08 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/tours/route.php:148
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(148): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 148
+[30-Dec-2025 21:48:09 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/tours/route.php:148
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(148): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 148
+[30-Dec-2025 21:48:09 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/tours/route.php:148
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(148): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 148
+[30-Dec-2025 21:48:12 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/tours/route.php:148
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(148): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 148
+[30-Dec-2025 21:48:34 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/tours/route.php:148
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(148): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 148
+[30-Dec-2025 21:48:34 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/tours/route.php:148
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(148): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 148
+[30-Dec-2025 21:48:34 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/tours/route.php:148
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(148): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 148
+[30-Dec-2025 21:49:05 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/tours/route.php:148
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(148): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 148
+[30-Dec-2025 21:49:07 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/tours/route.php:148
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(148): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 148
+[30-Dec-2025 21:49:07 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/tours/route.php:148
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(148): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 148
+[30-Dec-2025 21:49:07 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/tours/route.php:148
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(148): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 148
+[30-Dec-2025 21:49:07 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/tours/route.php:148
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(148): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 148
+[30-Dec-2025 21:49:08 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/tours/route.php:148
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(148): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 148
+[30-Dec-2025 21:49:09 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/tours/route.php:148
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(148): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 148
+[30-Dec-2025 21:49:09 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/tours/route.php:148
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(148): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 148
+[30-Dec-2025 21:49:32 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/tours/route.php:148
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(148): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 148
+[30-Dec-2025 21:49:33 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/tours/route.php:148
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(148): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 148
+[30-Dec-2025 21:49:33 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/tours/route.php:148
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(148): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 148
+[30-Dec-2025 21:49:33 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/tours/route.php:148
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(148): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 148
+[30-Dec-2025 21:49:33 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/tours/route.php:148
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(148): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 148
+[30-Dec-2025 21:49:34 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/tours/route.php:148
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(148): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 148
+[30-Dec-2025 21:49:34 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/tours/route.php:148
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(148): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 148
+[30-Dec-2025 21:49:34 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/tours/route.php:148
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(148): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 148
+[30-Dec-2025 21:50:24 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/tours/route.php:148
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(148): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 148
+[30-Dec-2025 21:50:24 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/tours/route.php:148
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(148): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 148
+[30-Dec-2025 21:50:24 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/tours/route.php:148
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(148): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 148
+[30-Dec-2025 22:57:07 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/tours/route.php:148
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(148): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 148
+[30-Dec-2025 22:57:08 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/tours/route.php:148
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(148): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 148
+[30-Dec-2025 22:57:08 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/tours/route.php:148
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(148): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 148
+[30-Dec-2025 22:57:08 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/tours/route.php:148
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(148): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 148
+[30-Dec-2025 22:57:11 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/tours/route.php:148
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(148): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 148
+[30-Dec-2025 22:57:11 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/tours/route.php:148
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/tours/route.php(148): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/tours/route.php on line 148

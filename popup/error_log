@@ -1,0 +1,11 @@
+[30-Mar-2026 16:40:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'title' in 'SELECT' in /home/terresde/admin.terresdesincas.com/api/popup/index.php:20
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/popup/index.php(20): mysqli->prepare()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/popup/index.php on line 20
+[30-Mar-2026 16:42:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'title' in 'SELECT' in /home/terresde/admin.terresdesincas.com/api/popup/index.php:20
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/popup/index.php(20): mysqli->prepare()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/popup/index.php on line 20
+[06-Apr-2026 22:14:57 UTC] PHP Warning:  Undefined variable $uploadsPath in /home/terresde/admin.terresdesincas.com/api/popup/index.php on line 115

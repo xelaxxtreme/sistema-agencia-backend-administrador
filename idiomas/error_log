@@ -1,0 +1,17 @@
+[17-Dec-2025 21:22:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/terresde/admin.terresdesincas.com/api/idiomas/index.php on line 39
+[17-Dec-2025 21:22:50 UTC] PHP Warning:  Undefined variable $documentsPath in /home/terresde/admin.terresdesincas.com/api/idiomas/index.php on line 42
+[17-Dec-2025 21:22:50 UTC] PHP Warning:  Undefined variable $documentsPath in /home/terresde/admin.terresdesincas.com/api/idiomas/index.php on line 42
+[17-Dec-2025 21:22:50 UTC] PHP Warning:  mkdir(): Invalid path in /home/terresde/admin.terresdesincas.com/api/idiomas/index.php on line 42
+[17-Dec-2025 21:22:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'lang' cannot be null in /home/terresde/admin.terresdesincas.com/api/idiomas/index.php:58
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/idiomas/index.php(58): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/idiomas/index.php on line 58
+[17-Dec-2025 21:25:02 UTC] PHP Warning:  Undefined variable $documentsPath in /home/terresde/admin.terresdesincas.com/api/idiomas/index.php on line 42
+[17-Dec-2025 21:25:02 UTC] PHP Warning:  Undefined variable $documentsPath in /home/terresde/admin.terresdesincas.com/api/idiomas/index.php on line 42
+[17-Dec-2025 21:25:02 UTC] PHP Warning:  mkdir(): Invalid path in /home/terresde/admin.terresdesincas.com/api/idiomas/index.php on line 42
+[23-Dec-2025 16:26:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'imagen' cannot be null in /home/terresde/admin.terresdesincas.com/api/idiomas/index.php:56
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/idiomas/index.php(56): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/idiomas/index.php on line 56

@@ -1,0 +1,21 @@
+{
+  "name": "backend administrador",
+  "host": "ftp.terresdesincas.com",
+  "protocol": "ftp",
+  "port": 21,
+  "username": "admin@admin.terresdesincas.com",
+  "password": "uIr,i(3p*}@06tiw",
+  "remotePath": "/",
+  "uploadOnSave": true,
+  "useTempFile": false,
+  "openSsh": false,
+  "watcher": {
+    "files": "**/*",
+    "autoUpload": true,
+    "autoDelete": false,
+    "ignoreCreate": false,
+    "ignoreUpdate": false,
+    "ignoreDelete": true
+  },
+  "ignore": []
+}

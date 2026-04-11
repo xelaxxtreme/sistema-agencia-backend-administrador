@@ -1,0 +1,58 @@
+[03-Feb-2026 17:12:15 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php:52
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php(52): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php on line 52
+[03-Feb-2026 17:14:23 UTC] PHP Warning:  move_uploaded_file(/home/terresde/admin.terresdesincas.com/api/directorio/agencias/../../directorioDocumentos/1770138863-Archivo_PRIMERO_PRIMARIA.pdf): Failed to open stream: No such file or directory in /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php on line 46
+[03-Feb-2026 17:14:23 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpNSN05J' to '/home/terresde/admin.terresdesincas.com/api/directorio/agencias/../../directorioDocumentos/1770138863-Archivo_PRIMERO_PRIMARIA.pdf' in /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php on line 46
+[03-Feb-2026 17:14:23 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php:52
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php(52): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php on line 52
+[03-Feb-2026 17:45:54 UTC] PHP Warning:  move_uploaded_file(/home/terresde/admin.terresdesincas.com/api/directorio/agencias/../../directorioDocumentos/1770140754-Archivo_PRIMERO_PRIMARIA.pdf): Failed to open stream: No such file or directory in /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php on line 46
+[03-Feb-2026 17:45:54 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpgZDvt0' to '/home/terresde/admin.terresdesincas.com/api/directorio/agencias/../../directorioDocumentos/1770140754-Archivo_PRIMERO_PRIMARIA.pdf' in /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php on line 46
+[03-Feb-2026 17:45:54 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php:52
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php(52): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php on line 52
+[03-Feb-2026 17:46:27 UTC] PHP Warning:  move_uploaded_file(/home/terresde/admin.terresdesincas.com/api/directorio/agencias/../../directorioDocumentos/1770140787-Archivo_PRIMERO_PRIMARIA.pdf): Failed to open stream: No such file or directory in /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php on line 46
+[03-Feb-2026 17:46:27 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpUvpK2d' to '/home/terresde/admin.terresdesincas.com/api/directorio/agencias/../../directorioDocumentos/1770140787-Archivo_PRIMERO_PRIMARIA.pdf' in /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php on line 46
+[03-Feb-2026 17:46:27 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php:52
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php(52): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php on line 52
+[03-Feb-2026 17:47:12 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php:52
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php(52): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php on line 52
+[03-Feb-2026 17:48:21 UTC] PHP Warning:  move_uploaded_file(/home/terresde/admin.terresdesincas.com/api/directorio/agencias/../../directorioDocumentos/1770140901-Archivo_PRIMERO_PRIMARIA.pdf): Failed to open stream: No such file or directory in /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php on line 46
+[03-Feb-2026 17:48:21 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpURZBuB' to '/home/terresde/admin.terresdesincas.com/api/directorio/agencias/../../directorioDocumentos/1770140901-Archivo_PRIMERO_PRIMARIA.pdf' in /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php on line 46
+[03-Feb-2026 17:48:21 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php:52
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php(52): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php on line 52
+[03-Feb-2026 17:48:39 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php:52
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php(52): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php on line 52
+[03-Feb-2026 17:48:41 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php:52
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php(52): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php on line 52
+[03-Feb-2026 18:00:54 UTC] PHP Warning:  move_uploaded_file(/home/terresde/admin.terresdesincas.com/api/directorio/agencias/../../directorioDocumentos/1770141654-Archivo_PRIMERO_PRIMARIA.pdf): Failed to open stream: No such file or directory in /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php on line 46
+[03-Feb-2026 18:00:54 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpb9lreD' to '/home/terresde/admin.terresdesincas.com/api/directorio/agencias/../../directorioDocumentos/1770141654-Archivo_PRIMERO_PRIMARIA.pdf' in /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php on line 46
+[03-Feb-2026 18:01:32 UTC] PHP Warning:  move_uploaded_file(/home/terresde/admin.terresdesincas.com/api/directorio/agencias/../../directorioDocumentos/1770141692-Archivo_PRIMERO_PRIMARIA.pdf): Failed to open stream: No such file or directory in /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php on line 46
+[03-Feb-2026 18:01:32 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpv3Qg1T' to '/home/terresde/admin.terresdesincas.com/api/directorio/agencias/../../directorioDocumentos/1770141692-Archivo_PRIMERO_PRIMARIA.pdf' in /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php on line 46
+[03-Feb-2026 18:01:35 UTC] PHP Warning:  move_uploaded_file(/home/terresde/admin.terresdesincas.com/api/directorio/agencias/../../directorioDocumentos/1770141695-Archivo_PRIMERO_PRIMARIA.pdf): Failed to open stream: No such file or directory in /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php on line 46
+[03-Feb-2026 18:01:35 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpDfJmE3' to '/home/terresde/admin.terresdesincas.com/api/directorio/agencias/../../directorioDocumentos/1770141695-Archivo_PRIMERO_PRIMARIA.pdf' in /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php on line 46
+[03-Feb-2026 18:01:37 UTC] PHP Warning:  move_uploaded_file(/home/terresde/admin.terresdesincas.com/api/directorio/agencias/../../directorioDocumentos/1770141697-Archivo_PRIMERO_PRIMARIA.pdf): Failed to open stream: No such file or directory in /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php on line 46
+[03-Feb-2026 18:01:37 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpgpczO8' to '/home/terresde/admin.terresdesincas.com/api/directorio/agencias/../../directorioDocumentos/1770141697-Archivo_PRIMERO_PRIMARIA.pdf' in /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php on line 46
+[04-Feb-2026 15:01:50 UTC] PHP Warning:  move_uploaded_file(/home/terresde/admin.terresdesincas.com/api/directorio/agencias/../../directorioDocumentos/1770217310-Archivo_PRIMERO_PRIMARIA.pdf): Failed to open stream: No such file or directory in /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php on line 46
+[04-Feb-2026 15:01:50 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpxWpYYk' to '/home/terresde/admin.terresdesincas.com/api/directorio/agencias/../../directorioDocumentos/1770217310-Archivo_PRIMERO_PRIMARIA.pdf' in /home/terresde/admin.terresdesincas.com/api/directorio/agencias/route.php on line 46

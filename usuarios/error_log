@@ -1,0 +1,35 @@
+[04-Dec-2025 15:22:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'username' in 'SELECT' in /home/terresde/admin.terresdesincas.com/api/usuarios/index.php:22
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/usuarios/index.php(22): mysqli->prepare()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/usuarios/index.php on line 22
+[04-Dec-2025 20:52:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column count doesn't match value count at row 1 in /home/terresde/admin.terresdesincas.com/api/usuarios/index.php:53
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/usuarios/index.php(53): mysqli->prepare()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/usuarios/index.php on line 53
+[04-Dec-2025 20:56:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column count doesn't match value count at row 1 in /home/terresde/admin.terresdesincas.com/api/usuarios/index.php:53
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/usuarios/index.php(53): mysqli->prepare()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/usuarios/index.php on line 53
+[04-Dec-2025 20:59:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column count doesn't match value count at row 1 in /home/terresde/admin.terresdesincas.com/api/usuarios/index.php:46
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/usuarios/index.php(46): mysqli->prepare()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/usuarios/index.php on line 46
+[10-Dec-2025 15:08:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'alex@terresdesincas.com' for key 'email' in /home/terresde/admin.terresdesincas.com/api/usuarios/index.php:49
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/usuarios/index.php(49): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/usuarios/index.php on line 49
+[10-Dec-2025 16:30:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'jose@terresdesincas.com' for key 'email' in /home/terresde/admin.terresdesincas.com/api/usuarios/index.php:49
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/usuarios/index.php(49): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/usuarios/index.php on line 49
+[10-Dec-2025 19:57:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'asistencia@terresdesincas.com' for key 'email' in /home/terresde/admin.terresdesincas.com/api/usuarios/index.php:49
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/usuarios/index.php(49): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/usuarios/index.php on line 49

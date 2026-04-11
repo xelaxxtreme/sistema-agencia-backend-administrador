@@ -1,0 +1,40 @@
+[30-Mar-2026 17:41:02 UTC] PHP Warning:  require_once(../config/db.php): Failed to open stream: No such file or directory in /home/terresde/admin.terresdesincas.com/api/popup/id/index.php on line 2
+[30-Mar-2026 17:41:02 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../config/db.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/terresde/admin.terresdesincas.com/api/popup/id/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/popup/id/index.php on line 2
+[30-Mar-2026 17:42:14 UTC] PHP Warning:  require_once(../config/db.php): Failed to open stream: No such file or directory in /home/terresde/admin.terresdesincas.com/api/popup/id/index.php on line 2
+[30-Mar-2026 17:42:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../config/db.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/terresde/admin.terresdesincas.com/api/popup/id/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/popup/id/index.php on line 2
+[06-Apr-2026 15:19:28 UTC] PHP Warning:  require_once(../config/db.php): Failed to open stream: No such file or directory in /home/terresde/admin.terresdesincas.com/api/popup/id/index.php on line 2
+[06-Apr-2026 15:19:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../config/db.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/terresde/admin.terresdesincas.com/api/popup/id/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/popup/id/index.php on line 2
+[06-Apr-2026 15:19:43 UTC] PHP Warning:  require_once(../config/db.php): Failed to open stream: No such file or directory in /home/terresde/admin.terresdesincas.com/api/popup/id/index.php on line 2
+[06-Apr-2026 15:19:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../config/db.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/terresde/admin.terresdesincas.com/api/popup/id/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/popup/id/index.php on line 2
+[06-Apr-2026 20:41:16 UTC] PHP Warning:  require_once(../config/db.php): Failed to open stream: No such file or directory in /home/terresde/admin.terresdesincas.com/api/popup/id/index.php on line 2
+[06-Apr-2026 20:41:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../config/db.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/terresde/admin.terresdesincas.com/api/popup/id/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/popup/id/index.php on line 2
+[06-Apr-2026 20:43:50 UTC] PHP Warning:  require_once(../config/db.php): Failed to open stream: No such file or directory in /home/terresde/admin.terresdesincas.com/api/popup/id/index.php on line 2
+[06-Apr-2026 20:43:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../config/db.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/terresde/admin.terresdesincas.com/api/popup/id/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/popup/id/index.php on line 2
+[06-Apr-2026 20:44:50 UTC] PHP Warning:  require_once(../config/db.php): Failed to open stream: No such file or directory in /home/terresde/admin.terresdesincas.com/api/popup/id/index.php on line 2
+[06-Apr-2026 20:44:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../config/db.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/terresde/admin.terresdesincas.com/api/popup/id/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/popup/id/index.php on line 2
+[06-Apr-2026 20:48:01 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is already closed in /home/terresde/admin.terresdesincas.com/api/popup/id/index.php:57
+Stack trace:
+#0 /home/terresde/admin.terresdesincas.com/api/popup/id/index.php(57): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/terresde/admin.terresdesincas.com/api/popup/id/index.php on line 57
