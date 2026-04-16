@@ -40,7 +40,7 @@ if ($method === 'GET') {
                     $servicio['telefono'] = $decodedTelefono;
                 }
             }
-            $stmtCaracteristicas = $conn->prepare("SELECT * FROM caracteristicasServicio WHERE idServicio = ?");
+            $stmtCaracteristicas = $conn->prepare("SELECT * FROM caracteristicasServicio WHERE idServicio = ? ORDER BY estado DESC");
             if (!$stmtCaracteristicas) {
                 throw new Exception("Error en la preparación de la consulta de características");
             }
@@ -116,26 +116,37 @@ if($method === 'POST'){
         $arrayDetalles = json_decode($detalles, true);
         if (is_array($arrayDetalles) && !empty($arrayDetalles)) {
             foreach ($arrayDetalles as $detalle) {
+                $idCaracteristica = $detalle['idCaracteristica'] ?? 0;
                 $nombreDetalle = $detalle['nombre'] ?? '';
                 $descripcion = $detalle['descripcion'] ?? '';
                 $tipoMoneda = $detalle['tipoMoneda'] ?? 'USD';
                 $tarifaConfidencial = $detalle['tarifaConfidencial'] ?? 0.00;
                 $tarifaVenta = $detalle['tarifaVenta'] ?? 0.00;
+                $estado = $detalle['estado'] ?? 1;
 
-                $stmtDetalle = $conn->prepare("INSERT INTO caracteristicasServicio (nombre, descripcion, tipoMoneda, tarifaConfidencial, tarifaVenta, idServicio) VALUES (?, ?, ?, ?, ?, ?)");
-                $stmtDetalle->bind_param("sssddi", $nombreDetalle, $descripcion, $tipoMoneda, $tarifaConfidencial, $tarifaVenta, $insertedId);
-                
-                if (!$stmtDetalle->execute()) {
-                    throw new Exception("Error al insertar detalle: " . $stmtDetalle->error);
+                if($idCaracteristica > 0){
+                    $stmtDetalle = $conn->prepare("UPDATE caracteristicasServicio SET nombre = ?, descripcion = ?, tipoMoneda = ?, tarifaConfidencial = ?, tarifaVenta = ?, estado = ? WHERE idCaracteristica = ?");
+                    $stmtDetalle->bind_param("sssddii", $nombreDetalle, $descripcion, $tipoMoneda, $tarifaConfidencial, $tarifaVenta, $estado, $idCaracteristica);
+
+                    if (!$stmtDetalle->execute()) {
+                        throw new Exception("Error al actualizar detalle: " . $stmtDetalle->error);
+                    }
+                    $stmtDetalle->close();
+                } else {
+                    $stmtDetalle = $conn->prepare("INSERT INTO caracteristicasServicio (nombre, descripcion, tipoMoneda, tarifaConfidencial, tarifaVenta, estado, idServicio) VALUES (?, ?, ?, ?, ?, ?, ?)");
+                    $stmtDetalle->bind_param("sssddii", $nombreDetalle, $descripcion, $tipoMoneda, $tarifaConfidencial, $tarifaVenta, $estado, $insertedId);
+                    
+                    if (!$stmtDetalle->execute()) {
+                        throw new Exception("Error al insertar detalle: " . $stmtDetalle->error);
+                    }
+                    $stmtDetalle->close();
                 }
-                $stmtDetalle->close();
             }
         }
 
-        http_response_code(201);
+        http_response_code(200);
         echo json_encode([
             "success" => true,
-            "id" => $insertedId,
             "nombre" => $nombre
         ]);
     } catch (Exception $e) {
