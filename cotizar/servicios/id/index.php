@@ -64,7 +64,10 @@ if($method === 'POST'){
     try {
         $documentsPath = __DIR__ . "/../../../directorioDocumentos/";
         if (!file_exists($documentsPath)) mkdir($documentsPath, 0777, true);
-        
+        $idServicio = $_GET['idServicio'] ?? null;
+         if (!$idServicio || !is_numeric($idServicio)) {
+            throw new Exception("Falta o es inválido el parámetro idServicio");
+        }
         $nombre = $_POST['nombre'] ?? '';
         $clasificacion = $_POST['clasificacion'] ?? '';
         $ubicacion = $_POST['ubicacion'] ?? '';
@@ -134,7 +137,7 @@ if($method === 'POST'){
                     $stmtDetalle->close();
                 } else {
                     $stmtDetalle = $conn->prepare("INSERT INTO caracteristicasServicio (nombre, descripcion, tipoMoneda, tarifaConfidencial, tarifaVenta, estado, idServicio) VALUES (?, ?, ?, ?, ?, ?, ?)");
-                    $stmtDetalle->bind_param("sssddii", $nombreDetalle, $descripcion, $tipoMoneda, $tarifaConfidencial, $tarifaVenta, $estado, $insertedId);
+                    $stmtDetalle->bind_param("sssddii", $nombreDetalle, $descripcion, $tipoMoneda, $tarifaConfidencial, $tarifaVenta, $estado, $idServicio);
                     
                     if (!$stmtDetalle->execute()) {
                         throw new Exception("Error al insertar detalle: " . $stmtDetalle->error);
