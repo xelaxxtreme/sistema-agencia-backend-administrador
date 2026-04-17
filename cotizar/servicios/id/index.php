@@ -64,7 +64,7 @@ if($method === 'POST'){
     try {
         $documentsPath = __DIR__ . "/../../../directorioDocumentos/";
         if (!file_exists($documentsPath)) mkdir($documentsPath, 0777, true);
-        $idServicio = $_GET['idServicio'] ?? null;
+        $idServicio = $_POST['idServicio'] ?? null;
          if (!$idServicio || !is_numeric($idServicio)) {
             throw new Exception("Falta o es inválido el parámetro idServicio");
         }
