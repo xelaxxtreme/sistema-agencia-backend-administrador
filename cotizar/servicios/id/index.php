@@ -122,23 +122,24 @@ if($method === 'POST'){
                 $idCaracteristica = $detalle['idCaracteristica'] ?? 0;
                 $nombreDetalle = $detalle['nombre'] ?? '';
                 $descripcion = $detalle['descripcion'] ?? '';
+                $costo = $detalle['costo'] ?? 1;
                 $tipoMoneda = $detalle['tipoMoneda'] ?? 'USD';
                 $tarifaConfidencial = $detalle['tarifaConfidencial'] ?? 0.00;
                 $tarifaVenta = $detalle['tarifaVenta'] ?? 0.00;
                 $estado = $detalle['estado'] ?? 1;
 
                 if($idCaracteristica > 0){
-                    $stmtDetalle = $conn->prepare("UPDATE caracteristicasServicio SET nombre = ?, descripcion = ?, tipoMoneda = ?, tarifaConfidencial = ?, tarifaVenta = ?, estado = ? WHERE idCaracteristica = ?");
-                    $stmtDetalle->bind_param("sssddii", $nombreDetalle, $descripcion, $tipoMoneda, $tarifaConfidencial, $tarifaVenta, $estado, $idCaracteristica);
+                    $stmtDetalle = $conn->prepare("UPDATE caracteristicasServicio SET nombre = ?, descripcion = ?, costo = ?, tipoMoneda = ?, tarifaConfidencial = ?, tarifaVenta = ?, estado = ? WHERE idCaracteristica = ?");
+                    $stmtDetalle->bind_param("ssisddii", $nombreDetalle, $descripcion, $costo, $tipoMoneda, $tarifaConfidencial, $tarifaVenta, $estado, $idCaracteristica);
 
                     if (!$stmtDetalle->execute()) {
                         throw new Exception("Error al actualizar detalle: " . $stmtDetalle->error);
                     }
                     $stmtDetalle->close();
                 } else {
-                    $stmtDetalle = $conn->prepare("INSERT INTO caracteristicasServicio (nombre, descripcion, tipoMoneda, tarifaConfidencial, tarifaVenta, estado, idServicio) VALUES (?, ?, ?, ?, ?, ?, ?)");
-                    $stmtDetalle->bind_param("sssddii", $nombreDetalle, $descripcion, $tipoMoneda, $tarifaConfidencial, $tarifaVenta, $estado, $idServicio);
-                    
+                    $stmtDetalle = $conn->prepare("INSERT INTO caracteristicasServicio (nombre, descripcion, costo, tipoMoneda, tarifaConfidencial, tarifaVenta, estado, idServicio) VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
+                    $stmtDetalle->bind_param("ssisddii", $nombreDetalle, $descripcion, $costo, $tipoMoneda, $tarifaConfidencial, $tarifaVenta, $estado, $idServicio);
+
                     if (!$stmtDetalle->execute()) {
                         throw new Exception("Error al insertar detalle: " . $stmtDetalle->error);
                     }

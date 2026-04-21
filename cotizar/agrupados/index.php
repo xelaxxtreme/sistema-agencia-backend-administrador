@@ -22,7 +22,7 @@ if ($method === 'GET') {
             exit;
         }
 
-        $sql = "SELECT s.idServicio, s.nombre AS nombreServicio, s.ubicacion AS ubicacionServicio, c.idCaracteristica, c.nombre AS nombreCaracteristica, c.tarifaConfidencial, c.tarifaVenta, c.tipoMoneda FROM servicio s LEFT JOIN caracteristicasServicio c ON s.idServicio = c.idServicio WHERE s.idCategoria = ?";
+        $sql = "SELECT s.idServicio, s.nombre AS nombreServicio, s.ubicacion AS ubicacionServicio, c.idCaracteristica, c.nombre AS nombreCaracteristica, c.tarifaConfidencial, c.tarifaVenta, c.tipoMoneda, c.costo FROM servicio s LEFT JOIN caracteristicasServicio c ON s.idServicio = c.idServicio WHERE s.idCategoria = ?";
         $stmt = $conn->prepare($sql);
         $stmt->bind_param("i", $idCategoria);
         $stmt->execute();
@@ -46,7 +46,8 @@ if ($method === 'GET') {
                         "nombreCaracteristica" => $row['nombreCaracteristica'] ?? null,
                         "tarifaConfidencial" => $row['tarifaConfidencial'] ?? null,
                         "tarifaVenta" => $row['tarifaVenta'] ?? null,
-                        "tipoMoneda" => $row['tipoMoneda'] ?? null
+                        "tipoMoneda" => $row['tipoMoneda'] ?? null,
+                        "costo" => $row['costo'] ?? null
                         // ajusta según tus columnas reales
                     ];
                 }
