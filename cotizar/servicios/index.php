@@ -105,9 +105,9 @@ if ($method === 'POST') {
                 $tipoMoneda = $detalle['tipoMoneda'] ?? 'USD';
                 $tarifaConfidencial = $detalle['tarifaConfidencial'] ?? 0.00;
                 $tarifaVenta = $detalle['tarifaVenta'] ?? 0.00;
-                $costo = $detalle['costo'] ?? 0.00;
+                $costo = $detalle['costo'] ?? 1;
 
-                $stmtDetalle = $conn->prepare("INSERT INTO caracteristicasServicio (nombre, descripcion, costo, tipoMoneda, tarifaConfidencial, tarifaVenta, idServicio) VALUES (?, ?, ?, ?, ?, ?)");
+                $stmtDetalle = $conn->prepare("INSERT INTO caracteristicasServicio (nombre, descripcion, costo, tipoMoneda, tarifaConfidencial, tarifaVenta, idServicio) VALUES (?, ?, ?,?, ?, ?, ?)");
                 $stmtDetalle->bind_param("ssisddi", $nombreDetalle, $descripcion, $costo, $tipoMoneda, $tarifaConfidencial, $tarifaVenta, $insertedId);
 
                 if (!$stmtDetalle->execute()) {
