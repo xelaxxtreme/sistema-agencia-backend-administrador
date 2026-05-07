@@ -1,7 +1,7 @@
 <?php
 require_once '../../../config/db.php';
 header("Access-Control-Allow-Origin: *");
-header("Access-Control-Allow-Methods: GET, POST");
+header("Access-Control-Allow-Methods: GET, POST, PUT, DELETE");
 header("Access-Control-Allow-Headers: Content-Type");
 header("Content-Type: application/json");
 
@@ -163,30 +163,41 @@ if($method === 'POST'){
     exit;
 }
 
-if($method === 'DELETE'){
+if ($method === 'DELETE') {
     try {
-        if (!$idServicio || !is_numeric($idServicio)) {
-            throw new Exception("Falta o es inválido el parámetro idServicio");
+        if (!$idServicio || !filter_var($idServicio, FILTER_VALIDATE_INT)) {
+            throw new Exception("El parámetro idServicio falta o no es válido");
         }
 
+        // Iniciar transacción
+        $conn->begin_transaction();
+
+        // Eliminar características relacionadas
         $stmtCaracteristicas = $conn->prepare("DELETE FROM caracteristicasServicio WHERE idServicio = ?");
         $stmtCaracteristicas->bind_param("i", $idServicio);
-        $stmtCaracteristicas ->execute();
+        $stmtCaracteristicas->execute();
         $stmtCaracteristicas->close();
 
+        // Eliminar servicio
         $stmt = $conn->prepare("DELETE FROM servicio WHERE idServicio = ?");
         $stmt->bind_param("i", $idServicio);
 
         if ($stmt->execute()) {
+            $conn->commit();
             http_response_code(200);
             echo json_encode(["success" => true]);
         } else {
-            throw new Exception("Error al eliminar servicio: " . $stmt->error);
+            $conn->rollback();
+            throw new Exception("Error SQL al eliminar servicio: " . $stmt->error);
         }
         $stmt->close();
+
     } catch (Exception $e) {
         http_response_code(500);
-        echo json_encode(["success" => false, "error" => "Error al eliminar servicio: " . $e->getMessage()]);
+        echo json_encode([
+            "success" => false,
+            "error" => $e->getMessage()
+        ]);
     }
     exit;
 }
