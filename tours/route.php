@@ -146,14 +146,14 @@ if ($method === 'POST') {
     // Insertar tour
     $stmt = $conn->prepare("
         INSERT INTO tours 
-        (nombre, slug, idioma,parrafo, descripcion, precio, precio_enganche, duracion, itinerario,
+        (nombre, slug, idioma, parrafo, descripcion, precio, precio_enganche, duracion, itinerario,
         departamento, incluye, no_incluye, recomendaciones, mapa, imagen_portada, frase_seo,
         tipo, video, picos, dificultad, idTipo, doc_itinerario, keywords)
         VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
     ");
 
     $stmt->bind_param(
-        "sssssdsssssssssssssss",
+        "sssssdsssssssssssssssss",
         $nombre, $slug, $idioma, $parrafo, $descripcion, $precio, $precio_enganche, $duracion, $itinerario,
         $departamento, $incluye, $no_incluye, $recomendaciones, $mapa, $imagen_portada, $frase_seo,
         $tipo, $video, $picos, $dificultad, $idTipo, $doc_itinerario, $keywords

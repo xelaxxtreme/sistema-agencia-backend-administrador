@@ -163,6 +163,34 @@ if($method === 'POST'){
     exit;
 }
 
+if($method === 'DELETE'){
+    try {
+        if (!$idServicio || !is_numeric($idServicio)) {
+            throw new Exception("Falta o es inválido el parámetro idServicio");
+        }
+
+        $stmtCaracteristicas = $conn->prepare("DELETE FROM caracteristicasServicio WHERE idServicio = ?");
+        $stmtCaracteristicas->bind_param("i", $idServicio);
+        $stmtCaracteristicas ->execute();
+        $stmtCaracteristicas->close();
+
+        $stmt = $conn->prepare("DELETE FROM servicio WHERE idServicio = ?");
+        $stmt->bind_param("i", $idServicio);
+
+        if ($stmt->execute()) {
+            http_response_code(200);
+            echo json_encode(["success" => true]);
+        } else {
+            throw new Exception("Error al eliminar servicio: " . $stmt->error);
+        }
+        $stmt->close();
+    } catch (Exception $e) {
+        http_response_code(500);
+        echo json_encode(["success" => false, "error" => "Error al eliminar servicio: " . $e->getMessage()]);
+    }
+    exit;
+}
+
 http_response_code(405);
 echo json_encode(['error' => 'Método no permitido'], JSON_UNESCAPED_UNICODE);
 ?>
