@@ -59,6 +59,7 @@ if ($method === 'GET') {
         echo json_encode(["error" => "Error al obtener servicio", "detalle" => $e->getMessage()]);
     }
     exit;
+    //validaciones
 }
 if($method === 'POST'){
     try {
